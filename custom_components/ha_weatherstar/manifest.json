@@ -1,0 +1,19 @@
+{
+  "domain": "ha_weatherstar",
+  "name": "WeatherStar 4000+",
+  "codeowners": [
+    "@Makr91"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http"
+  ],
+  "documentation": "https://github.com/makr91/ha_weatherstar",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/makr91/ha_weatherstar/issues",
+  "requirements": [
+    "aiofiles",
+    "async_timeout"
+  ],
+  "version": "0.0.1"
+}
